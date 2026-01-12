@@ -1,0 +1,193 @@
+export const carsData = [
+  {
+    id: 1,
+    name: "Thunder Bolt X1",
+    category: "Off-Road",
+    price: 299.99,
+    quantity: 15,
+    image: "/red-off-road-rc-car-monster-truck.jpg",
+    description:
+      "High-performance off-road RC car with 4WD system, waterproof electronics, and brushless motor. Perfect for rough terrain adventures.",
+    specs: {
+      speed: "45 mph",
+      battery: "3S LiPo",
+      scale: "1:10",
+      range: "300m",
+    },
+  },
+  {
+    id: 2,
+    name: "Speed Demon Pro",
+    category: "Racing",
+    price: 449.99,
+    quantity: 8,
+    image: "/blue-racing-rc-car-sleek-aerodynamic.jpg",
+    description:
+      "Professional racing RC car with aerodynamic design, high-speed brushless motor, and precision steering for competitive racing.",
+    specs: {
+      speed: "70 mph",
+      battery: "4S LiPo",
+      scale: "1:8",
+      range: "400m",
+    },
+  },
+  {
+    id: 3,
+    name: "Desert Crusher",
+    category: "Off-Road",
+    price: 379.99,
+    quantity: 12,
+    image: "/orange-desert-buggy-rc-car-sand.jpg",
+    description:
+      "Desert-ready RC buggy with long-travel suspension, sand tires, and dust-resistant construction for ultimate desert bashing.",
+    specs: {
+      speed: "40 mph",
+      battery: "3S LiPo",
+      scale: "1:10",
+      range: "350m",
+    },
+  },
+  {
+    id: 4,
+    name: "Drift King Z",
+    category: "Drift",
+    price: 329.99,
+    quantity: 20,
+    image: "/white-drift-rc-car-japanese-style.jpg",
+    description:
+      "Purpose-built drift RC car with rear-wheel drive, drift tires, and adjustable suspension for smooth sideways action.",
+    specs: {
+      speed: "35 mph",
+      battery: "2S LiPo",
+      scale: "1:10",
+      range: "250m",
+    },
+  },
+  {
+    id: 5,
+    name: "Rock Crawler Elite",
+    category: "Crawler",
+    price: 259.99,
+    quantity: 18,
+    image: "/green-rock-crawler-rc-car-climbing.jpg",
+    description:
+      "Technical rock crawler with portal axles, locked differentials, and super-soft compound tires for extreme climbing.",
+    specs: {
+      speed: "8 mph",
+      battery: "2S LiPo",
+      scale: "1:10",
+      range: "200m",
+    },
+  },
+  {
+    id: 6,
+    name: "Nitro Fury GT",
+    category: "Racing",
+    price: 599.99,
+    quantity: 5,
+    image: "/black-nitro-rc-car-racing-flames.jpg",
+    description:
+      "Nitro-powered racing beast with 2-speed transmission, tuned exhaust, and competition-grade chassis for serious racers.",
+    specs: {
+      speed: "60 mph",
+      battery: "Nitro Fuel",
+      scale: "1:8",
+      range: "Unlimited",
+    },
+  },
+  {
+    id: 7,
+    name: "Mini Racer S",
+    category: "Mini",
+    price: 89.99,
+    quantity: 50,
+    image: "/yellow-mini-rc-car-compact-racing.jpg",
+    description:
+      "Compact mini RC car perfect for indoor racing, featuring proportional steering and rechargeable battery.",
+    specs: {
+      speed: "15 mph",
+      battery: "1S LiPo",
+      scale: "1:24",
+      range: "50m",
+    },
+  },
+  {
+    id: 8,
+    name: "Monster Mayhem",
+    category: "Off-Road",
+    price: 429.99,
+    quantity: 10,
+    image: "/purple-monster-truck-rc-car-big-wheels.jpg",
+    description:
+      "Massive monster truck with oversized tires, powerful brushless motor, and heavy-duty suspension for crushing everything.",
+    specs: {
+      speed: "50 mph",
+      battery: "4S LiPo",
+      scale: "1:8",
+      range: "350m",
+    },
+  },
+  {
+    id: 9,
+    name: "Street Slider",
+    category: "Drift",
+    price: 199.99,
+    quantity: 25,
+    image: "/silver-drift-rc-car-street-racing.jpg",
+    description: "Entry-level drift car with easy-to-control handling, durable construction, and stylish body design.",
+    specs: {
+      speed: "25 mph",
+      battery: "2S LiPo",
+      scale: "1:10",
+      range: "200m",
+    },
+  },
+  {
+    id: 10,
+    name: "Trail Master 4x4",
+    category: "Crawler",
+    price: 349.99,
+    quantity: 14,
+    image: "/brown-trail-crawler-rc-car-4x4.jpg",
+    description:
+      "Scale trail crawler with realistic details, working lights, and exceptional articulation for trail adventures.",
+    specs: {
+      speed: "12 mph",
+      battery: "3S LiPo",
+      scale: "1:10",
+      range: "250m",
+    },
+  },
+  {
+    id: 11,
+    name: "Turbo Blitz",
+    category: "Racing",
+    price: 519.99,
+    quantity: 7,
+    image: "/cyan-turbo-rc-car-futuristic-racing.jpg",
+    description: "High-tech racing car with advanced aerodynamics, carbon fiber components, and telemetry system.",
+    specs: {
+      speed: "75 mph",
+      battery: "4S LiPo",
+      scale: "1:8",
+      range: "450m",
+    },
+  },
+  {
+    id: 12,
+    name: "Pocket Rocket",
+    category: "Mini",
+    price: 59.99,
+    quantity: 100,
+    image: "/pink-mini-rc-car-cute-compact.jpg",
+    description: "Ultra-compact RC car that fits in your pocket. Perfect gift for beginners and kids.",
+    specs: {
+      speed: "10 mph",
+      battery: "Built-in",
+      scale: "1:32",
+      range: "30m",
+    },
+  },
+]
+
+export const categories = ["All", "Off-Road", "Racing", "Drift", "Crawler", "Mini"]
